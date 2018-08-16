@@ -34,7 +34,7 @@ Usage
 -----
 
 You run the tool on the command-line, passing a `Slack API token
-<https://api.slack.com/web>`_ for authentication:
+<https://api.slack.com/custom-integrations/legacy-tokens>`_ for authentication:
 
 .. code-block:: console
 

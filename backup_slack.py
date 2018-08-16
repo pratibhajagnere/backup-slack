@@ -61,8 +61,7 @@ def download_history(channel_info, history, path):
 
     # Newest messages appear at the top of the file
     existing_messages = sorted(existing_messages,
-                               key=operator.itemgetter('ts'),
-                               reverse=True)
+                               key=operator.itemgetter('ts'))
     data = {
         'channel': channel_info,
         'messages': existing_messages,
